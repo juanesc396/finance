@@ -18,3 +18,9 @@ cov_matrix = CovarianceShrinkage(returns_df).ledoit_wolf()
 - Improves portfolio stability, especially when dealing with limited historical data.
 - Enhances risk-adjusted returns by preventing overfitting in mean-variance optimization.
 - This technique is particularly useful in Markowitz's Mean-Variance Optimization (MVO), where an accurate covariance matrix is crucial for determining the Efficient Frontier—the set of optimal portfolios that offer the highest return for a given risk level.
+
+
+## Searching Mean Reversion
+[Link to Repo](https://github.com/juanesc396/finance/blob/main/searching_mean_reversion.ipynb)
+
+The project aims to analyze the behavior of the BTC/USDT cryptocurrency, identifying whether it exhibits mean reversion characteristics. Methods such as the Dickey-Fuller test are used to assess if the time series is stationary, the Hurst exponent to determine the persistence or reversion of the series, and the calculation of the mean reversion rate and half-life to measure how quickly BTC/USDT tends to return to its average value.
